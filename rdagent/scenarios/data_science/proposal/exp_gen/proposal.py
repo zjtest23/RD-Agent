@@ -684,7 +684,6 @@ class DSProposalV2ExpGen(ExpGen):
 
         max_score_problem_name = scores_sorted.index[selected_idx]
         problem_dict = problem_dict.get(max_score_problem_name, {})
-        logger.info(f"Selected Hypothesis: {max_score_problem_name}, Selected Type: {problem_types[selected_idx]}")
 
         return max_score_problem_name, DSHypothesis(
             component=hypothesis_dict[max_score_problem_name].get("component", "Model"),
