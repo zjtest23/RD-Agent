@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.5.1](https://github.com/microsoft/RD-Agent/compare/v0.5.0...v0.5.1) (2025-06-24)
+
+
+### Bug Fixes
+
+* docker container cleanup to prevent accumulation and system slowdown ([#975](https://github.com/microsoft/RD-Agent/issues/975)) ([05cf094](https://github.com/microsoft/RD-Agent/commit/05cf094913e48c903c8a4476d6c609d8bfa10681))
+* fix a bug and update the docs ([#978](https://github.com/microsoft/RD-Agent/issues/978)) ([d1ae9e1](https://github.com/microsoft/RD-Agent/commit/d1ae9e1dcc2ccd1ffe05cb1c6db3e905fa70425c))
+* merge datascience v3 and v2 ([#974](https://github.com/microsoft/RD-Agent/issues/974)) ([1ba7548](https://github.com/microsoft/RD-Agent/commit/1ba754853ce2010ce1cb0bbd217b67689fa1ebdf))
+* refine details ([#979](https://github.com/microsoft/RD-Agent/issues/979)) ([25caa3d](https://github.com/microsoft/RD-Agent/commit/25caa3d00c255286dce27915b9355987b87ed2e8))
+
 ## [0.5.0](https://github.com/microsoft/RD-Agent/compare/v0.4.0...v0.5.0) (2025-06-18)
 
 
